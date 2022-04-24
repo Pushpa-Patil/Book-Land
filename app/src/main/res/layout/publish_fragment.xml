@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image5">
+   <de.hdodenhof.circleimageview.CircleImageView
+       android:layout_width="80dp"
+       android:layout_height="80dp"
+       android:layout_marginLeft="140dp"
+       android:layout_marginTop="20dp"
+       android:src="@drawable/circleimage"
+       android:id="@+id/circleimage"
+       android:alpha="0.7">
+   </de.hdodenhof.circleimageview.CircleImageView>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="125dp"
+       android:layout_marginTop="100dp"
+       android:text="BookLand"
+       android:textColor="#CA074A"
+       android:textSize="27dp"
+       android:textStyle="italic">
+   </TextView>
+
+   <de.hdodenhof.circleimageview.CircleImageView
+       android:id="@+id/clickimg"
+       android:layout_width="95dp"
+       android:layout_height="100dp"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="140dp"
+       android:src="@drawable/novels"></de.hdodenhof.circleimageview.CircleImageView>
+
+    <ImageView
+        android:id="@+id/selectimage"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/publish"></ImageView>
+   <EditText
+       android:id="@+id/edtname"
+       android:layout_width="300dp"
+       android:layout_height="40dp"
+       android:layout_marginLeft="20dp"
+       android:layout_marginTop="250dp"
+       android:layout_marginRight="20dp"
+       android:hint= "Book Name"
+       android:textColorHint="#E91E63"
+       android:textSize="15dp"
+       android:textColor="#E91E63"
+       android:textStyle="bold"
+       android:layout_centerHorizontal="true"
+       android:background="@drawable/edit_corners"
+       android:padding="8dp" />
+   <EditText
+       android:id="@+id/edtauther"
+       android:layout_width="300dp"
+       android:layout_height="40dp"
+       android:layout_marginLeft="20dp"
+       android:layout_marginTop="305dp"
+       android:layout_marginRight="20dp"
+       android:hint= "Auther Name"
+       android:textColor="#E91E63"
+       android:textColorHint="#E91E63"
+       android:textSize="15dp"
+       android:textStyle="bold"
+       android:layout_centerHorizontal="true"
+       android:background="@drawable/edit_corners"
+       android:padding="8dp" />
+
+   <TextView
+       android:id="@+id/selectpdf"
+       android:layout_width="300dp"
+       android:layout_height="40dp"
+       android:layout_marginLeft="20dp"
+       android:layout_marginTop="360dp"
+       android:layout_marginRight="20dp"
+       android:text="Select PDF"
+       android:textColor="#E91E63"
+       android:textColorHint="#E91E63"
+       android:textSize="15dp"
+       android:textStyle="bold"
+       android:layout_centerHorizontal="true"
+       android:background="@drawable/edit_corners"
+       android:padding="8dp" />
+   <Button
+       android:layout_width="160dp"
+       android:layout_height="50dp"
+       android:text="ADD"
+       android:textSize="16dp"
+       android:textColor="#FCF9FA"
+       android:layout_marginTop="440dp"
+       android:layout_centerHorizontal="true"
+       android:id="@+id/add"
+       android:textStyle="bold"
+       android:background="@drawable/submit_back"
+       android:alpha="0.7"/>
+</RelativeLayout>
